@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@theme{
+ --color-primary: #1E3A8A;
+ --color-secondary: #F5F5DC;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+
+
+*{
+  font-family: outfit;
+}
+
+.playfair {
+  font-family: playfair;
+}
