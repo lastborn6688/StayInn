@@ -98,8 +98,10 @@ const Navbar = () => {
       {/* Desktop Right */}
       <div className="hidden md:flex items-center gap-4">
         <FaSearch
-          className={`transition-all duration-500 ${isScrolled && "invert"} text-black cursor-pointer`}
-        />
+  className={`transition-all duration-500 cursor-pointer ${
+    isScrolled ? "text-black" : "text-yellow-500"
+  }`}
+/>
         {user ? (
           <UserButton>
             <UserButton.MenuItems>
