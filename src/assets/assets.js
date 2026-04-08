@@ -196,7 +196,7 @@ export const testimonials = [
     address: "New York, USA",
     image:
       "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
-    rating: 4,
+    rating: 4.5,
     review:
       "QuickStay exceeded my expectations. The booking process was seamless, and the hotels were absolutely top-notch. Highly recommended!",
   },
