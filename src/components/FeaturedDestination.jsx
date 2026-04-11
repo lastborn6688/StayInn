@@ -9,7 +9,7 @@ const FeaturedDestination = () => {
     const navigate = useNavigate()
 
   return (
-    <div className='text-gray-700 flex flex-col items-center px-6 md:px-16 lg:px-16 bg-slate-50'>
+    <div className='text-gray-700 flex flex-col items-center px-6 md:px-16 lg:px-16'>
 
         <Title title='Featured Destination' subtitle='Discover, compare, and book the perfect stay anywhere in the world with ease and confidence.' />
 

@@ -5,7 +5,7 @@ import StarRating from "./StarRating";
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col items-center px-6 md:px-16 lg:px-24 bg-[rgb(206,176,135)]/30 pt-20 pb-30">
+    <div className="flex flex-col items-center px-6 md:px-16 lg:px-24  pt-20 pb-30">
       <Title
         title="What our Guests Say"
         subtitle="Discover why discerning travelers choose StayInn for exclusive, luxurious accommodations across the world."

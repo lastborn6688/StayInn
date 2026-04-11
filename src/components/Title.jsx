@@ -5,7 +5,7 @@ const Title = ({title, subtitle, align, font}) => {
     <div className={`flex flex-col justify-center items-center text-center ${align === "left" && "md:items-start md:text-left"}`}>
       <h1 className={`text-4xl md:text-[40px] ${font || "font-playfair"}
       text-gray-700`}>{title}</h1>
-      <p className='text-sm md:text-base text-gray-500/50 mt-2 max-w-174'>{subtitle}</p>
+      <p className='text-sm md:text-base text-gray-500 mt-2 max-w-174'>{subtitle}</p>
     </div>
   )
 }
