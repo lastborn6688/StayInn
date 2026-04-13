@@ -285,6 +285,7 @@ export const roomsDummyData = [
     createdAt: "2025-04-10T06:26:04.013Z",
     updatedAt: "2025-04-10T06:26:04.013Z",
     __v: 0,
+    reviews: "200+"
   },
   {
     _id: "67f76452197ac559e4089b8e",
@@ -297,6 +298,7 @@ export const roomsDummyData = [
     createdAt: "2025-04-10T06:25:22.593Z",
     updatedAt: "2025-04-10T06:25:22.593Z",
     __v: 0,
+    reviews: "300+"
   },
   {
     _id: "67f76406197ac559e4089b82",
@@ -309,6 +311,7 @@ export const roomsDummyData = [
     createdAt: "2025-04-10T06:24:06.285Z",
     updatedAt: "2025-04-10T06:24:06.285Z",
     __v: 0,
+    reviews: "250+"
   },
   {
     _id: "67f763d8197ac559e4089b7a",
@@ -321,6 +324,7 @@ export const roomsDummyData = [
     createdAt: "2025-04-10T06:23:20.252Z",
     updatedAt: "2025-04-10T06:23:20.252Z",
     __v: 0,
+    reviews: "150+"
   },
 ];
 
