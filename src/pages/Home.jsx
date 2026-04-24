@@ -4,15 +4,16 @@ import FeaturedDestination from '../components/FeaturedDestination'
 import ExclusiveOffers from '../components/ExclusiveOffers'
 import Testimonial from '../components/Testimonial'
 import NewsLater from '../components/NewsLater'
-import Footer from '../components/Footer'
 
 const Home = () => {
+
+
   return (
-    <div className='bg-[rgb(206,176,135)]/30'>
+    <div className='bg-[rgb(206,176,135)]/30 mb-20'>
       <Hero/>
       <FeaturedDestination/>
       <ExclusiveOffers/>
-      <Testimonial/>
+      <Testimonial id='newslater'/>
       <NewsLater />
     </div>
   )

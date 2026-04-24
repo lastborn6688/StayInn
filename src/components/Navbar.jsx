@@ -32,7 +32,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Hotels", path: "/rooms" },
-    { name: "Experience", path: "/" },
+    { name: "Experience", path: "/#newslater" },
     { name: "About", path: "/" },
   ];
 
@@ -42,7 +42,18 @@ const Navbar = () => {
   const { openSignIn } = useClerk();
   const { user } = useUser();
   const navigate = useNavigate();
-  const location = useLocation;
+  const location = useLocation();
+
+  const handleExperienceClick = () => {
+  navigate("/");
+
+  setTimeout(() => {
+    const section = document.getElementById("newsletter");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }, 100); // wait for page to load
+};
 
   useEffect(() => {
     if (location.pathname !== "/") {
